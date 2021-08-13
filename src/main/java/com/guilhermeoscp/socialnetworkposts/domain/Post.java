@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 public class Post implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	@Id
 	private String id;
 	private Date date;
@@ -60,7 +60,7 @@ public class Post implements Serializable {
 	public void setBody(String body) {
 		this.body = body;
 	}
-	
+
 	public User getAuthor() {
 		return author;
 	}
