@@ -8,9 +8,11 @@ EN-US: This project consists of a Restful API aimed at manipulating the database
 
 ### Instruções Para Inicialização do Software | Software Startup Instructions:
 
-PT-BR: 
+PT-BR: Quando o projeto for baixado e você importar o mesmo em sua IDE (Eu utilizo o Eclipse), espere um momento pois as dependencias serão baixadas automaticamente através do Maven, as mesmas se encontram no arquivo "pom.xml" na pasta principal do projeto caso você queira conferi-las.
+É necessário ter o MongoDB instalado em seu computador e ter uma database criada para que o software funcione de forma corretamente. Tendo o MongoDB instalado e a database criada, acesse o arquivo "application.properties" no caminho "src/main/resources/". Esse é o arquivo de conexão com o banco MongoDB, o mesmo contém  apenas uma linha e nela está escrito "spring.data.mongodb.uri=mongodb://localhost:27017/social-network-java" altere a parte "social-network-java" no final da linha para o nome da sua database em seu MongoDB, pois as tabelas e dados serão inseridos nela.
 
-EN-US:
+EN-US: When the project is downloaded and you import it into your IDE (I use Eclipse), wait a moment because the dependencies will be automatically downloaded through Maven, they are found in the "pom.xml" file in the main project folder if you want to check them out.
+It is necessary to have MongoDB installed on your computer and have a database created for the software to work properly. Having MongoDB installed and the database created, access the file "application.properties" in the path "src/main/resources/". This is the MongoDB database connection file, it contains only one line and it says "spring.data.mongodb.uri=mongodb://localhost:27017/social-network-java" change the part "social- network-java" at the end of the line for the name of your database in your MongoDB, as the tables and data will be inserted into it.
 
 ### Observação | Observation:
 
